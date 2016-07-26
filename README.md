@@ -8,23 +8,23 @@ This technical exercise uses the java bindings for Selenium webdriver with TestN
 - http://www.seleniumhq.org/docs/
 - http://testng.org/doc/documentation-main.html
 
-The folder should have all the necessary jars in the lib folder, when imported onto eclipse all the dependencies will be downloaded as a maven project. A TechEx.java file under src with one example test is also included, one test case would be: 
+The folder should have all the necessary jars in the lib folder, when imported onto eclipse all the dependencies will be downloaded as a maven project. A HomePageTest.java file under src/test/java with one partially complete example test is also included, one test case would be: 
 - Get a list of all products of Callidus Cloud.
 - Assert all product names, change when navigating to different product endpoints. 
 
-Source code is partially complete, we would like to see atleast one complete working example. 
+We would like to see atleast one complete working example, we have also included a base main folder for including PageObjects for different menus on the website's home page. 
 
 ** Running from Eclipse **
 - Import workspace into Eclipse:
-    - File > Import > General > Existing Projects into Workspace
+    - File > Import > Git > Projects from Git > Clone URI (https://github.com/punitmishra/technical-ex.git)
 
 - Run as TestNG Test:
-    - Right click TechEx in Project Explorer and select Run as TestNG Test
+    - Right click HomePageTest.java in Project Explorer (/automation/src/test/java/HomePageTest.java) and select Run as TestNG Test
 
 ** Running from command line **
 cd to bin folder and run the following commands
-  - javac -classpath "../lib/*" -d ./ ../src/TechEx.java
-  - java -cp ".:../lib/*" org.junit.runner.JUnitCore TechEx
+  - cd /automation/
+  - mvn test (Running as a maven project)
 
 Part 2:
 The second part of this exercise is to write a high level testplan for all of http://www.calliduscloud.com, including figuring out how to prioritize testing effort, balance effort and risk and cover all the necessary items. This part of the exercise is not meant to be at the level of individual testcases; rather it should detail out the different testing areas that need to be covered to provide complete testing coverage of the site at a higher level. We would expect this to be fairly detailed and multiple pages.
