@@ -15,10 +15,11 @@ The folder should have all the necessary jars in the lib folder, when imported o
 Source code is partially complete, we would like to see atleast one complete working example. 
 
 ** Running from Eclipse **
-Import workspace into Eclipse
-    File > Import > General > Existing Projects into Workspace
-Run as TestNG Test
-    Right click TechEx in Project Explorer and select Run as TestNG Test
+Import workspace into Eclipse:
+File > Import > General > Existing Projects into Workspace
+
+Run as TestNG Test:
+Right click TechEx in Project Explorer and select Run as TestNG Test
 
 ** Running from command line **
 cd to bin folder and run the following commands
