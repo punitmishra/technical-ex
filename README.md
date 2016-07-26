@@ -28,7 +28,7 @@ java -cp ".:../lib/*" org.junit.runner.JUnitCore TechEx
 
 Part 2:
 The second part of this exercise is to write a high level testplan for all of http://www.calliduscloud.com, including figuring out how to prioritize testing effort, balance effort and risk and cover all the necessary items. This part of the exercise is not meant to be at the level of individual testcases; rather it should detail out the different testing areas that need to be covered to provide complete testing coverage of the site at a higher level. We would expect this to be fairly detailed and multiple pages.
-​
+
 Source code can be cloned from github here: 
 https://github.com/punitmishra/technical-ex
 
