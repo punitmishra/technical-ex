@@ -1,5 +1,4 @@
 # technical-exercise
-# technical-exercise
 Part 1:
 Using the automation framework provided, write automated tests in Selenium for CallidusCloud home page (http://www.calliduscloud.com). 
 
